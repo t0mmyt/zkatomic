@@ -35,6 +35,6 @@ public class Main {
 
         double rate = (double) iterations / (t2 - t1) * 1000;
 
-        System.out.println(String.format("%dms for %d iterations, (%.1f/s)", (t2 - t1), iterations, rate));
+        System.out.printf("%dms for %d iterations, (%.1f/s)", (t2 - t1), iterations, rate);
     }
 }
