@@ -21,9 +21,9 @@ jar {
 
 dependencies {
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
-    compile group: 'org.apache.curator', name: 'curator-client', version: '3.3.0'
-    compile group: 'org.apache.curator', name: 'curator-framework', version: '3.3.0'
-    compile group: 'org.apache.curator', name: 'curator-recipes', version: '3.3.0'
+    compile group: 'org.apache.curator', name: 'curator-client', version: '2.11.0'
+    compile group: 'org.apache.curator', name: 'curator-framework', version: '2.11.0'
+    compile group: 'org.apache.curator', name: 'curator-recipes', version: '2.11.0'
     compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
 //    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
